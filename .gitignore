@@ -1,3 +1,7 @@
+#Prestashop and suitecrm dir
+!prestashop/.gitkeep
+!suitecrm/.gitkeep
+
 # Cache and logs (Symfony2)
 /myddleware/app/cache/*
 /myddleware/app/logs/*
