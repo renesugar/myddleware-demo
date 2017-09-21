@@ -1,0 +1,48 @@
+# Cache and logs (Symfony2)
+/myddleware/app/cache/*
+/myddleware/app/logs/*
+!myddleware/app/cache/.gitkeep
+!myddleware/app/logs/.gitkeep
+
+# Email spool folder
+/myddleware/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/myddleware/var/cache/*
+/myddleware/var/logs/*
+/myddleware/var/sessions/*
+!myddleware/var/cache/.gitkeep
+!myddleware/var/logs/.gitkeep
+!myddleware/var/sessions/.gitkeep
+
+# Parameters
+/myddleware/app/config/parameters.yml
+/myddleware/app/config/parameters.ini
+
+# Managed by Composer
+/myddleware/app/bootstrap.php.cache
+/myddleware/var/bootstrap.php.cache
+/myddleware/bin/*
+!myddleware/bin/console
+!myddleware/bin/symfony_requirements
+/myddleware/vendor/
+
+# Assets and user uploads
+/myddleware/web/bundles/
+/myddleware/web/uploads/
+
+# Assets managed by Bower
+/myddleware/web/assets/vendor/
+
+# PHPUnit
+/myddleware/app/phpunit.xml
+/myddleware/phpunit.xml
+
+# Build data
+/myddleware/build/
+
+# Composer PHAR
+#/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+/myddleware/*/Entity/*
